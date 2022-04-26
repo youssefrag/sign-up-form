@@ -1,3 +1,27 @@
-.test {
-  font-size: 180px;
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.animation {
+  background-image: url('images/board.jpg');
+  background-repeat: no-repeat;
+  background-attachment: sticky;
+  background-size: cover;
+  color: #FFFFFF;
+  height: 100vh;
+  width: 40vw;
+  text-align: center;
+  font-style: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.information {
+  background-color: green;
+  width: 60vw;
+}
+
+body {
+  display: flex;
+}
+
+.title {
+  font-size: 4em;
 }
